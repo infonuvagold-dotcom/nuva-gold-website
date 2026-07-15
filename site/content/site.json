@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "eyebrow": "6.5244° N, 3.3792° E — Lagos, Nigeria",
+    "headline_before": "Building systems that place ",
+    "headline_highlight": "Africa",
+    "headline_after": " at the top 1% of the global economy.",
+    "sub": "NUVA-Gold Group of Companies is a sales, marketing, and business development firm committed to helping businesses grow, expand their market reach, and increase revenue across Nigeria and Africa to a global scale.",
+    "cta_primary": "Partner with us",
+    "cta_secondary": "Our mission"
+  },
+  "mission": {
+    "title": "Leveraging every opportunity with purpose.",
+    "quote": "\"We partner with local businesses to strengthen their market presence and support international companies in successfully entering the Nigerian market — combining strategic expertise with deep local knowledge to drive sustainable growth.\"",
+    "base": "Nigeria",
+    "reach": "Africa & Global Markets",
+    "orientation": "Purpose Before Scale"
+  },
+  "services": {
+    "title": "Services built to move your business forward.",
+    "lede": "Whatever stage your business is at, our services are structured around one outcome: getting you in front of the right customers and closing the distance between opportunity and revenue.",
+    "items": [
+      { "title": "Sales Outsourcing & Revenue Growth", "desc": "We take on your sales function end-to-end, driving measurable revenue growth without the overhead of building an in-house team." },
+      { "title": "Marketing & Brand Promotion", "desc": "Positioning, campaigns, and brand-building that get your business noticed and remembered in a crowded market." },
+      { "title": "Market Entry Services for Foreign Companies", "desc": "A guided path into the Nigerian market — navigating regulation, culture, and consumer behaviour for international brands." },
+      { "title": "Distribution & Channel Development", "desc": "Building and managing the distribution networks that get your product physically and reliably to customers." },
+      { "title": "Business Development & Strategic Partnerships", "desc": "Identifying and structuring the partnerships that unlock new markets, capabilities, and revenue lines." },
+      { "title": "Lead Generation & Customer Acquisition", "desc": "Consistent pipelines of qualified leads, built and nurtured until they convert into paying customers." },
+      { "title": "Product Launch & Go-to-Market Execution", "desc": "From launch strategy to on-the-ground execution, we make sure new products land with impact from day one." },
+      { "title": "Trade Facilitation Between Global and African Markets", "desc": "Connecting global and African businesses, easing the trade relationships that let both sides grow together." }
+    ]
+  },
+  "pillars": {
+    "title": "Three Pillars, One direction.",
+    "items": [
+      { "tag": "Pillar — Impact", "title": "Meaningful over merely profitable", "desc": "We choose ventures for the difference they make first, and let commercial strength follow from doing that well." },
+      { "tag": "Pillar — Enterprise", "title": "Built to compete globally", "desc": "Every initiative is held to a standard that can stand in international markets, not just local ones." },
+      { "tag": "Pillar — Africa-forward", "title": "The continent as the starting point", "desc": "Nigeria and Africa are not a market we enter — they are the vantage point everything is built from." }
+    ]
+  },
+  "console": {
+    "title": "Sales and Marketing, running live.",
+    "lede": "A look at the kind of activity and momentum we build behind every client engagement — from first contact to closed deal."
+  },
+  "approach": {
+    "title": "How we choose to work.",
+    "lede": "Helping businesses grow across Nigeria and Africa takes more than strategy on paper. Here is the discipline behind how we execute for every partner and client.",
+    "items": [
+      { "tag": "Local", "title": "Start where the need is real", "desc": "We ground each venture in a specific, lived problem or opportunity rather than an abstract market thesis." },
+      { "tag": "Lean", "title": "Stay close to the work", "desc": "With a three-person founding team, every function is led by an owner, eliminating the gap between decision making and execution." },
+      { "tag": "Global", "title": "Design for the bigger stage", "desc": "Standards, partnerships, and ambitions are set with international relevance in mind from day one." }
+    ]
+  },
+  "team": {
+    "title": "Three Founders, One team working for you.",
+    "lede": "Every engagement is led directly by a founder, not handed off. Here are the roles each member of our team plays to drive sales and marketing results for your business.",
+    "members": [
+      { "name": "Victoria Nsek", "role": "Product Development, Sales & Distribution", "bio": "Works directly with your business to shape product-market fit and build the sales and distribution channels that get you in front of the right customers." },
+      { "name": "Unwana Ekwere", "role": "Product Management & Customer Relationship", "bio": "Manages your engagement end-to-end and owns the customer relationships that keep your pipeline warm and your clients retained." },
+      { "name": "Nsa Ekpo", "role": "Brand Promotion, Back-End Content & Website Management", "bio": "Builds your brand's presence — from promotional content to the digital platforms your customers meet you through." }
+    ]
+  },
+  "reviews": {
+    "title": "Tell us how we're doing.",
+    "lede": "Worked with NUVA-Gold? Rate your experience and leave a note for other businesses considering us."
+  },
+  "contact": {
+    "title": "Let's talk about what we're building.",
+    "email": "infonuvagold@gmail.com",
+    "phone1": "+234 802 320 8091",
+    "phone2": "+234 802 942 5736",
+    "location": "Lagos, Nigeria",
+    "for": "Investors, Partners & Collaborators"
+  },
+  "footer": {
+    "copyright": "© 2026 NUVA-GOLD GROUP OF COMPANIES",
+    "tagline": "LAGOS · NIGERIA · AFRICA",
+    "slogan": "Connecting businesses. Growing markets. Creating value across Africa and the world."
+  }
+}

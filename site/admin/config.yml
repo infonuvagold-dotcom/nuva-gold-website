@@ -1,0 +1,123 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "content"
+        label: "Page Content"
+        file: "content/site.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow (coordinates line)", name: "eyebrow", widget: "string" }
+              - { label: "Headline — before highlighted word", name: "headline_before", widget: "string" }
+              - { label: "Headline — highlighted word", name: "headline_highlight", widget: "string" }
+              - { label: "Headline — after highlighted word", name: "headline_after", widget: "string" }
+              - { label: "Subheadline", name: "sub", widget: "text" }
+              - { label: "Primary button text", name: "cta_primary", widget: "string" }
+              - { label: "Secondary button text", name: "cta_secondary", widget: "string" }
+
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Base", name: "base", widget: "string" }
+              - { label: "Reach", name: "reach", widget: "string" }
+              - { label: "Orientation", name: "orientation", widget: "string" }
+
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "lede", widget: "text" }
+              - label: "Service items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Pillars"
+            name: "pillars"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Pillar items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Tag", name: "tag", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Live Console (Sales & Marketing running live)"
+            name: "console"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "lede", widget: "text" }
+
+          - label: "Approach"
+            name: "approach"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "lede", widget: "text" }
+              - label: "Approach items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Tag", name: "tag", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Team"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "lede", widget: "text" }
+              - label: "Team members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role", name: "role", widget: "string" }
+                  - { label: "Bio", name: "bio", widget: "text" }
+
+          - label: "Reviews section"
+            name: "reviews"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "lede", widget: "text" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone 1", name: "phone1", widget: "string" }
+              - { label: "Phone 2", name: "phone2", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "\"For\" line", name: "for", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Copyright line", name: "copyright", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Company slogan", name: "slogan", widget: "string" }
